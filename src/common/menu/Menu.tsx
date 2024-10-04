@@ -7,8 +7,8 @@ export const Menu: React.FC = () => {
         <DropdownMenu>
             <DropdownMenuTrigger asChild>
                 <button className="flex items-center space-x-2 text-sm focus:outline-none">
-                    <UserCircle className="text-2xl text-gray-700" />
-                    <span className="font-semibold text-gray-700">John Doe</span>
+                    <UserCircle className="text-2xl text-foreground" />
+                    <span className="font-semibold text-foreground">John Doe</span>
                 </button>
             </DropdownMenuTrigger>
 
